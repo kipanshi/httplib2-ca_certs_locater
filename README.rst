@@ -9,8 +9,11 @@ expected OS-specific file is not found.
 
 Installation
 ============
+First install `pbr`_ package::
 
-::
+  $ pip install pbr
+
+Then run::
 
   $ pip install httplib2.ca_certs_locater
 
@@ -18,6 +21,7 @@ Supporting Additional Platforms
 ===============================
 
 If you are on a platform with a different certificate authority file,
-please submit a pull request via github_ to add the file to ``get()``.
+please submit a pull request via `github`_ to add the file to ``get()``.
 
-.. _github:: https://github.com/dreamhost/httplib2-ca_certs_locater
+.. _`github`: https://github.com/dreamhost/httplib2-ca_certs_locater
+.. _`pbr`: https://github.com/openstack-dev/pbr
