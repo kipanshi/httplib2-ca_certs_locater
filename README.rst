@@ -1,5 +1,5 @@
 ===========================
- httplib2.ca_certs_locater
+ httplib2.system-ca-certs-locater 0.1.2
 ===========================
 
 This package provides a plug-in to httplib2 to tell it to use the
@@ -15,7 +15,16 @@ First install `pbr`_ package::
 
 Then run::
 
-  $ pip install httplib2.ca_certs_locater
+  $ pip install httplib2.system-ca-certs-locater
+
+Setup custom ca_certs file via environment variable
+===================================================
+
+You can specify custom path to ca_certs file using
+``HTTPLIB_CA_CERTS_PATH``::
+
+  import os
+  os.environ['HTTPLIB_CA_CERTS_PATH'] = '/home/user/my_ca_certs.txt'
 
 Supporting Additional Platforms
 ===============================

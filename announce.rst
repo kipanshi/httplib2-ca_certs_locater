@@ -1,5 +1,5 @@
 =================================
- httplib2.ca_certs_locater 0.1.0
+ httplib2.system-ca-certs_locater 0.1.2
 =================================
 
 .. tags:: python release
@@ -19,7 +19,7 @@ Installation
 
 ::
 
-  $ pip install httplib2.ca_certs_locater
+  $ pip install httplib2.system-ca-certs-locater
 
 Supporting Additional Platforms
 ===============================
